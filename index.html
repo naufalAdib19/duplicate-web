@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="style-intro.css">
+    <link rel="stylesheet" href="style-about-me.css">
+    <link rel="stylesheet" href="style-worked.css">
+    <link rel="stylesheet" href="style-project-porto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portofolio Duplicate Web</title>
+</head>
+<body>
+
+    <header class="absolute w-screen overflow-hidden">
+        <div class="relative z-[100] top-0 left-0 z-10 container flex items-center px-6 md:px-12 md:py-10 py-7 justify-between">
+            <div class="icon">
+                <h1>adib.</h1>
+            </div>
+            <div class="items-center relative">
+                <button id="hamburger" class="md:scale-0">
+                    <span class="w-[35px]"></span>
+                    <span class="w-[30px]"></span>
+                    <span class="w-[25px]"></span>
+                </button>
+            </div>
+        </div>
+        <div class="nav-active fixed md:absolute z-[51] md:z-[101] w-full h-[100%] transform translate-x-[100%] md:translate-x-[0] flex top-0 transition duration-200 ease-in-out md:px-12 md:py-12">
+            <div class="nav-active-blur w-1/4">
+            </div>
+            <div class="nav-active-content w-3/4 bg-[#182444] md:bg-transparent flex items-center justify-center md:justify-end">
+                <ol class="md:flex md:items-center md:text-xs md:gap-x-5">
+                    <li class="mb-5 md:mb-0"> <a href="#about-me" class=""><p class="md:inline md:mr-2">01.</p>About</a></li>
+                    <li class="mb-5 md:mb-0"> <a href="#work-experience" class=""><p class="md:inline md:mr-2">02.</p>Experience</a></li>
+                    <li class="mb-5 md:mb-0"> <a href="" class=""><p class="md:inline md:mr-2">03.</p>Work</a></li>
+                    <li class="mb-5 md:mb-0"> <a href="" class=""><p class="md:inline md:mr-2">04.</p>Content</a></li>
+                    <li id="resume" class="px-10 py-5 mt-14 md:px-4 md:py-3 md:mt-0"><a href="">Resume</a></li>
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <div class="sosmed-nav fixed z-[-1] left-0 bottom-0 w-screen px-10 scale-0 md:scale-100 ">
+        <div class="flex justify-between">
+            <div class="min-w-[30px] opacity-70">
+                <div class="min-h-[170px] max-w-[20px] mb-3 mx-auto">
+                    <ul>
+                        <li><i class="fa-brands fa-instagram mb-5" style="color: #d3d3d3;"></i></li>
+                        <li><i class="fa-brands fa-github mb-5" style="color: #d3d3d3;"></i></li>
+                        <li><i class="fa-brands fa-twitter mb-5" style="color: #d3d3d3;"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in mb-5" style="color: #d3d3d3;"></i></li>
+                        <li><i class="fa-brands fa-tiktok mb-2" style="color: #d3d3d3;"></i></li>
+                    </ul>
+                </div>
+                <div class="h-[130px] w-[1px] bg-white mx-auto">
+                </div>
+            </div>
+            <div class="min-w-[30px] opacity-70">
+                <div class="min-h-[170px] max-w-[20px] mb-4 mx-auto">
+                    <p class="text-white rotate-90 text-xs">naufal.adib19@student.ub.ac.id</p>
+                </div>
+                <div class="h-[150px] w-[1px] bg-white mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="intro relative flex flex-col justify-center md:items-center lg:items-center h-screen">
+        <div class="px-6 mt-10 md:px-24 lg:px-6 lg:min-w-[1000px]"> <!-- md:px-28 lg:px-40 --> 
+            <p class="text-[--my-color-3]  mb-3 md:text-lg">Hi, my name is</p>
+            <h1 class="text-[--my-color-1] text-5xl md:text-7xl mb-2">Naufal Adib.</h1>
+            <h1 class="text-[--my-color-2] text-4xl md:text-6xl mb-5">I build things for the web.</h1>
+            <p class="text-[--my-color-2] opacity-80 md:w-[500px] md:text-lg">
+                Hai semua!!!, aku sedang belajar tentang bagaimana cara membuat web.
+                Ini merupakan salah satu projek aku yaitu duplikasi web. Web yang aku
+                duplikasi dari <a href="" class="text-[--my-color-3]">brittanychiang</a>
+            </p>
+            <p class="mt-12 border border-[--my-color-3] w-fit rounded-md text-[--my-color-3] px-7 py-4">Check out my project!</p>
+        </div>
+    </div>
+
+    <div class="about-me px-6 md:px-24 lg:px-6 pt-10 max-w-[1000px] mx-auto" id="about-me">
+        <div class="title-about-me overflow-hidden">
+            <div class="w-max flex items-center">
+                <h1 class="text-[--my-color-1] text-2xl">About Me</h1>
+                <hr class="ml-4 w-[350px] md:w-[180px] lg:w-[450px] opacity-30">
+            </div>   
+        </div>
+        <div class="md:flex md:mt-10 lg:items-center">
+            <div class="desc-about-me mt-5 md:mt-0 text-[--my-color-2]">
+                <div class="self-desc pr-14">
+                    <p class="mb-5 text-lg">
+                        Haiii kenalin aku Adib mahasiswa Fakultas Ilmu Komputer Universitas Brawijaya Semester 4.
+                        Aku tertarik dan berfokus dalam dunia front-end. Front-end sangat cocok dengan diriku
+                        yang suka dengan design dan juga logika pemrograman. 
+                    </p>
+                    <p class="mb-5 text-lg">
+                        Aku mulai belajar tentang front-end
+                        sejak semester ke-3, dimana waktu itu terdapat mata kuliah DDAP yang mempelajari tentang design 
+                        serta 3 bahasa pemrograman web yaitu HTML, CSS, dan JS. Dari mata kuliah dan materi tersebut Aku
+                        menemukan keseruan terkait dengan dunia Front-End.
+                    </p>
+                    <p class="mb-2 text-lg">
+                        Berikut adalah bahasa pemrograman yang pernah aku pelajari:
+                    </p>
+                    <div class="list-programming-language flex w-full px-6">
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                        </ul>
+                        <ul class="ml-14">
+                            <li>Python</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="pict-about-me mt-14 md:mt-7">
+                <div class="flex items-center justify-center">
+                    <div class="relative border-2 border-[--my-color-3] rounded-sm">
+                        <div class="my-photo bg-white w-[230px] lg:w-[250px] relative -left-5 -top-5 rounded-sm">
+                            <img src="img/self-photo.png" alt="" class="w-[230px] lg:w-[270px]">
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-experience mt-28 max-w-[850px] md:mx-auto md:px-20 lg:px-2 pt-10" id="work-experience">
+        <div class="px-6">
+            <div class="title-work-ex overflow-x-hidden">
+                <div class="w-max flex items-center">
+                    <h1 class="text-[--my-color-1] text-2xl">Where i've worked</h1>
+                    <hr class="ml-4 w-[350px] md:w-[180px] lg:w-[450px] opacity-30">
+                </div> 
+            </div>
+        </div> 
+        <div class="md:flex md:px-5">
+            <div class="list-worked overflow-scroll md:overflow-visible pb-1">
+                <div class="w-max px-6 pb-1">
+                    <div class="flex md:flex-col relative mt-9">
+                        <button class="inisialize">Upstatement</button>
+                        <button>Apple</button>
+                        <button>Scout Studio</button>
+                        <button>Starry</button>
+                        <button>MullenLowe</button>
+                        <button class="slide absolute left-0"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="worked-desc mt-3">
+                <div class="px-6 work-content">
+                    <div class="upstatement-content md:my-10">
+                        <h1 class="inline text-[--my-color-1] font-semibold text-xl">Lead Engineer</h1>
+                        <a href="" class="text-[--my-color-3] font-semibold text-xl">@Upstatement</a>
+                        <p class="text-[--my-color-2]">May 2018 - Present</p>
+                        <ol class="px-6 mt-2">
+                            <li>Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more</li>
+                            <li>Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements</li>
+                            <li>Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders</li>
+                        </ol>
+                    </div>
+                    <div class="apple-content md:my-10 hidden">
+                        <h1 class="inline text-[--my-color-1] font-semibold text-xl">UI Engineer Co-op</h1>
+                        <a href="" class="text-[--my-color-3] font-semibold text-xl">@Apple</a>
+                        <p class="text-[--my-color-2]">July - December 2017</p>
+                        <ol class="px-6 mt-2">
+                            <li>Developed and styled interactive web applications for Apple Music using Ember and SCSS</li>
+                            <li>uilt and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations</li>
+                            <li>Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback</li>
+                        </ol>
+                    </div>
+                    <div class="scout-content md:my-10 hidden">
+                        <h1 class="inline text-[--my-color-1] font-semibold text-xl">Developer</h1>
+                        <a href="" class="text-[--my-color-3] font-semibold text-xl">@Scout Studio</a>
+                        <p class="text-[--my-color-2]">Spring 2016 & 2017</p>
+                        <ol class="px-6 mt-2">
+                            <li>Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community</li>
+                            <li>Built and delivered technical solutions according to stakeholder business requirements</li>
+                        </ol>
+                    </div>
+                    <div class="starry-content md:my-10 hidden">
+                        <h1 class="inline text-[--my-color-1] font-semibold text-xl">Software Engineer Co-op</h1>
+                        <a href="" class="text-[--my-color-3] font-semibold text-xl">@Starry</a>
+                        <p class="text-[--my-color-2]">July - December 2016</p>
+                        <ol class="px-6 mt-2">
+                            <li>Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS</li>
+                            <li>Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router</li>
+                            <li>Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps</li>
+                        </ol>
+                    </div>
+                    <div class="mullenLowe-content md:my-10 hidden">
+                        <h1 class="inline text-[--my-color-1] font-semibold text-xl">Creative Technologist Co-op</h1>
+                        <a href="" class="text-[--my-color-3] font-semibold text-xl">@MullenLowe</a>
+                        <p class="text-[--my-color-2]">July - December 2015</p>
+                        <ol class="px-6 mt-2">
+                            <li>Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
+                            <li>Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness</li>
+                            <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full md:flex md:justify-center">
+        <div class="project-portofolio mt-14 lg:max-w-[1000px] px-6">
+            <div class="mb-8">
+                <div class="title-project-porto overflow-x-hidden">
+                    <div class="w-max flex items-center">
+                        <h1 class="text-[--my-color-1] text-2xl font-bold">Some Thing I've Built</h1>
+                        <hr class="ml-4 w-[350px] md:w-[180px] lg:w-[450px] opacity-30">
+                    </div> 
+                </div>
+            </div>
+            <div class="project-porto-content">
+                <div class="song-project-porto px-8 py-8">
+                    <div class="w-full relative md:flex md:items-center">
+                        <div class="song-bg-project absolute md:relative top-0 left-0 w-full md:w-7/12 h-full opacity-5 md:opacity-100 overflow-hidden">
+                            <img src="img/song-bg.svg" alt="" class="w-full h-full">
+                        </div>
+                        <div class="song-content-project flex justify-center items-center md:w-5/12">
+                            <div class="relative">
+                                <p class="text-[--my-color-3] md:text-right md:text-xl">Individual Project</p>
+                                <h1 class="text-white font-bold md:text-right md:text-2xl">Song Generator</h1>
+                                <p class="text-[--my-color-2] text-base mt-5 md:text-right md:w-[420px]">
+                                    Salah satu tugas dari praktikum pemrograman web. Dimana pada project ini akan menampilkan lagu sesuai dengan genre yang dipilih.
+                                    Dimana akan terdapat 5 genre yaitu pop, rock, alternative, metal, dan jazz dan tiap genrenya akan berisikan 3 lagu.
+                                </p>
+                                <p class="text-[--my-color-2] mt-5 md:text-right">html - css - js - taillwind - vs code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

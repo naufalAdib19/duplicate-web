@@ -1,0 +1,92 @@
+.title-work-ex > div h1 {
+    font-family: var(--my-text-roboto);
+    font-weight: 900;
+}
+
+.title-work-ex > div h1::before {
+    content: "02.";
+    font-family: var(--my-text-sono);
+    color: var(--my-color-3);
+    font-size: x-large;
+    margin-right: 10px;
+}
+
+.list-worked button {
+    color: var(--my-color-2);
+    width: 135px;
+    height: 45px;
+    border-bottom: 1px solid var(--my-color-2);
+    font-family: var(--my-text-sono);
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.list-worked button:disabled {
+    color: var(--my-color-3);
+    background-color: rgba(137, 146, 177, 0.1);
+}
+
+.list-worked button:nth-child(6) {
+    border-bottom: 2px solid var(--my-color-3);
+}
+
+.inisialize {
+    color: var(--my-color-3) !important;
+}
+
+.upstatement-content p{
+    font-family: var(--my-text-sono);
+    font-size: small;
+}
+
+.work-content ol li {
+    color: var(--my-color-2);
+    list-style-type: circle;
+    margin-top: 7px;
+}
+
+.list-worked::-webkit-scrollbar {
+    width: 100%;
+    height: 10px;
+    background-color: transparent;
+}
+
+.list-worked::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+	background-color: rgba(137, 146, 177, 0.5);
+}
+
+.list-worked::-webkit-scrollbar-track {
+	border-radius: 100px;
+	background-color: transparent;
+}
+
+.work-content > div {
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+}
+
+@media only screen and (min-width: 768px) {
+    .list-worked button {
+        color: var(--my-color-2);
+        width: 135px;
+        height: 45px;
+        border-left: 1px solid var(--my-color-2);
+        border-bottom: 0px solid transparent;
+        font-family: var(--my-text-sono);
+        box-sizing: border-box;
+    }
+
+    .list-worked button:nth-child(6) {
+        border-left: 2px solid var(--my-color-3);
+        border-bottom: 0px solid transparent;
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.1;
+    }
+}
+

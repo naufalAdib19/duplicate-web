@@ -1,0 +1,41 @@
+.title-project-porto > div h1::before {
+    content: "03. ";
+    color: var(--my-color-3);
+    font-family: var(--my-text-sono);
+}
+
+.project-porto-content > div {
+    background-color: #182434;/*  */
+    margin-top: 15px;
+    min-height: 320px;
+}
+
+.song-content-project p:nth-child(1) {
+    font-family: var(--my-text-sono);
+}
+
+.song-content-project h1 {
+    font-family: var(--my-text-roboto);
+    letter-spacing: 1px;
+}
+
+/* .song-project-porto * {
+    border: 1px solid white;
+}
+ */
+.song-content-project {
+    direction: rtl;
+}
+
+@media only screen and (min-width: 768px){
+    .project-porto-content > div {
+        background-color: transparent;
+    }
+
+    .song-content-project > div p:nth-child(3){
+        background-color: #182444;
+        padding: 15px 20px;
+        border-radius: 3px;
+        font-size: small;
+    }
+}

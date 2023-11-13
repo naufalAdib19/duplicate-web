@@ -1,0 +1,22 @@
+.title-about-me h1::before {
+    content: "01.";
+    color: var(--my-color-3);
+    font-size: small;
+    font-family: var(--my-text-sono);
+    font-size: x-large;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.title-about-me h1{
+    font-family: var(--my-text-roboto);
+    font-weight: 900;
+}
+
+.list-programming-language ul li {
+    list-style: disc;
+}
+
+/* * {
+    border: 1px solid white;
+} */

@@ -1,0 +1,12 @@
+.intro {
+    font-family: var(--my-text-roboto);
+}
+
+.intro > div p {
+    word-spacing: 5px;
+}
+
+.intro > div h1 {
+    font-family: var(--my-text-roboto);
+    font-weight: 900;
+}
